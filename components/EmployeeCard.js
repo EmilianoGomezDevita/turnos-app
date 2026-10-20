@@ -1,7 +1,7 @@
-export default function EmployeeCard({name, role}){
+export default function EmployeeCard({name, role, turno}){
     return (
         <div>
-            <strong>{name}</strong> -- {role}
+            <strong>{name}</strong> -- {role} --- {turno}
         </div>
     )
 }
