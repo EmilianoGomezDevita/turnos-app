@@ -12,3 +12,25 @@ $secondary-color: skyblue;
   text-decoration: underline;
 
 }
+.contenedorRol, .contenedorTurno{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.botonRol, .botonTurno {
+    background-color: #007bff;
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.activo {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
+
