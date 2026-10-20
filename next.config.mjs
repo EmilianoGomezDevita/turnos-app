@@ -3,6 +3,9 @@ const nextConfig = {
   /* config options here */
   cacheComponents: true,
   partialPrefetching: true,
+  sassOptions: {
+    additionalData: `$var: red;`,
+  },
 };
 
 export default nextConfig;
