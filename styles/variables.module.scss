@@ -1,0 +1,14 @@
+$primary-color: blue;
+$secondary-color: skyblue;
+
+.title{
+  color: $primary-color;
+  text-align: center;
+}
+
+.enlaces{
+  color: $secondary-color;
+  justify-content: center;
+  text-decoration: underline;
+
+}
